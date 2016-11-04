@@ -4,5 +4,5 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.eclipse</groupId>
   <artifactId>org.eclipse.ui.forms</artifactId>
-  <version>56.1.0</version>
+  <version>3.7.0</version>
 </project>

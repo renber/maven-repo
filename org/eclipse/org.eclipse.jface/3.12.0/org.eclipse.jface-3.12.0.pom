@@ -17,16 +17,16 @@
   </repositories>
   
   <dependencies>
-    <dependency>
-        <groupId>org.eclipse</groupId>
-        <artifactId>org.eclipse.ui.forms</artifactId>
-        <version>3.7.0</version>
-    </dependency>
 	<dependency>
         <groupId>com.ibm</groupId>
         <artifactId>com.ibm.icu</artifactId>
         <version>56.1.0</version>
     </dependency>	
+	<dependency>
+        <groupId>org.eclipse</groupId>
+        <artifactId>org.eclipse.core.commands</artifactId>
+        <version>3.8.0</version>
+    </dependency>		
 	<dependency>
         <groupId>org.eclipse</groupId>
         <artifactId>org.eclipse.core.databinding.beans</artifactId>
@@ -54,8 +54,8 @@
     </dependency>	
 	<dependency>
         <groupId>org.eclipse</groupId>
-        <artifactId>org.eclipse.common.bidi</artifactId>
-        <version>1.0.0</version>
+        <artifactId>org.eclipse.equinox.common</artifactId>
+        <version>3.8.0</version>
     </dependency>		
 	<dependency>
         <groupId>org.eclipse</groupId>
